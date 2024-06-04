@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	
+  <PropertyGroup>
+    <TargetFrameworks>net7.0</TargetFrameworks>
+    <Version>1.0</Version>
+    <Title>MasterThesisCode1</Title>
+    <Description>Description of MasterThesisCode1</Description>
+    <TargetExt>.gha</TargetExt>
+    <BaseOutputPath>C:\Users\Emilija\AppData\Roaming\Grasshopper\Libraries</BaseOutputPath>
+  </PropertyGroup>
+	
+  <ItemGroup>
+    <Compile Remove="Not used anymore\**" />
+    <EmbeddedResource Remove="Not used anymore\**" />
+    <None Remove="Not used anymore\**" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Grasshopper" Version="8.0.23164.14305-wip" IncludeAssets="compile;build" />
+  </ItemGroup>
+
+</Project>
